@@ -69,7 +69,7 @@ class MobileNavbar extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
       child: Container(
         constraints: BoxConstraints(maxWidth: 1200),
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Text(
@@ -79,27 +79,31 @@ class MobileNavbar extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 30),
             ),
-            Row(
-              children: <Widget>[
-                Text(
-                  "Home",
-                  style: TextStyle(color: Colors.white),
-                ),
-                SizedBox(
-                  width: 30,
-                ),
-                Text(
-                  "About Us",
-                  style: TextStyle(color: Colors.white),
-                ),
-                SizedBox(
-                  width: 30,
-                ),
-                Text(
-                  "Contact",
-                  style: TextStyle(color: Colors.white),
-                ),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    "Home",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  SizedBox(
+                    width: 30,
+                  ),
+                  Text(
+                    "About Us",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  SizedBox(
+                    width: 30,
+                  ),
+                  Text(
+                    "Contact",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
