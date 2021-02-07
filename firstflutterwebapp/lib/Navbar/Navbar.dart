@@ -65,6 +65,45 @@ class DesktopNavbar extends StatelessWidget {
 class MobileNavbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+      child: Container(
+        constraints: BoxConstraints(maxWidth: 1200),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Text(
+              "Rakib's site",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  fontSize: 30),
+            ),
+            Row(
+              children: <Widget>[
+                Text(
+                  "Home",
+                  style: TextStyle(color: Colors.white),
+                ),
+                SizedBox(
+                  width: 30,
+                ),
+                Text(
+                  "About Us",
+                  style: TextStyle(color: Colors.white),
+                ),
+                SizedBox(
+                  width: 30,
+                ),
+                Text(
+                  "Contact",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
