@@ -1,3 +1,4 @@
+import 'package:firstflutterwebapp/Navbar/Navbar.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -27,6 +28,9 @@ class MyHomePage extends StatelessWidget {
               Color.fromRGBO(195, 20, 50, 1.0),
               Color.fromRGBO(36, 11, 54, 1.0)
             ])),
+        child: Column(
+          children: <Widget>[Navbar()],
+        ),
       ),
     );
   }
