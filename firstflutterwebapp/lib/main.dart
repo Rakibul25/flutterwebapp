@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue, fontFamily: "Montserrat"),
       home: MyHomePage(),
@@ -26,8 +27,8 @@ class MyHomePage extends StatelessWidget {
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
                 colors: [
-              Color.fromRGBO(195, 20, 50, 1.0),
-              Color.fromRGBO(36, 11, 54, 1.0)
+              Color.fromRGBO(12, 65, 125, 1.0),
+              Color.fromRGBO(65, 55, 95, 1.0)
             ])),
         child: SingleChildScrollView(
           child: Column(

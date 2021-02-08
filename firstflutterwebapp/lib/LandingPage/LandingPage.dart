@@ -9,7 +9,7 @@ class LandingPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              "Website \nDevelopers",
+              "Flutter \nDeveloper",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40.0,
@@ -18,7 +18,7 @@ class LandingPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               child: Text(
-                "We have taken each and every project handed over to us as a challenge, which has helped us achieve a high project success rate.",
+                "Hello folks!! Bojack here in flutter :)",
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),
@@ -31,7 +31,7 @@ class LandingPage extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(
                     vertical: 20.0, horizontal: 40.0),
                 child: Text(
-                  "Our Packages",
+                  "Simple Button",
                   style: TextStyle(color: Colors.red),
                 ),
               ),
@@ -42,7 +42,7 @@ class LandingPage extends StatelessWidget {
       Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Image.asset(
-          "assets/images/lp_image.png",
+          "assets/images/bojack.png",
           width: width,
         ),
       )

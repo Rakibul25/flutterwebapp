@@ -26,7 +26,7 @@ class DesktopNavbar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Text(
-              "Rakib's site",
+              "@MRI DEV",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
