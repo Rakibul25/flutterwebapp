@@ -87,14 +87,14 @@ class MobileNavbar extends StatelessWidget {
                     style: TextStyle(color: Colors.white),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 20,
                   ),
                   Text(
                     "About Us",
                     style: TextStyle(color: Colors.white),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 20,
                   ),
                   Text(
                     "Contact",
